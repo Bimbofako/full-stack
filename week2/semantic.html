@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML</title>
+  </head>
+  <body>
+    <header>
+      <img src="../week1/PIC.png" alt="Logo" height="100" width="100" />
+      <nav>
+        <ul style="list-style: none">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero, home" id="home">
+        <!-- Hero section -->
+        <h1>My Portfolio</h1>
+        <p>
+          Welcome to my portfolio website! My name is Abimbola and i'm learning
+          web development
+        </p>
+        <a href="">Get started</a>
+      </section>
+      <section class="about" id="about">
+        <!-- About section  -->
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate software engineer with a love for creating innovative
+          solutions. Dedicated to continuous learning and growth, I thrive on
+          tackling challenges and collaborating with diverse teams. With a
+          strong background in full-stack development, I enjoy building
+          user-friendly applications that make a positive impact. In my free
+          time, I love exploring new technologies, contributing to open-source
+          projects, and sharing knowledge with the tech community.
+        </p>
+        <a href="">Learn more about me</a>
+      </section>
+      <section class="blog" id="blog">
+        <!-- Blog section  -->
+        <h2>Blog</h2>
+        <article>
+          <h3>My Journey into Web Development</h3>
+          <p>
+            I started my web development journey a few months ago, and it's been
+            an incredible experience so far. I've learned so much about HTML,
+            CSS, and JavaScript, and I'm excited to continue growing my skills
+            in this field.
+          </p>
+          <a href="">Read more</a>
+        </article>
+        <article>
+          <h3>Building My First Portfolio Website</h3>
+          <p>
+            Building my first portfolio website was a rewarding experience. It
+            allowed me to showcase my skills and projects, and it was a great
+            opportunity to practice my HTML and CSS skills.
+          </p>
+          <a href="">Read more</a>
+        </article>
+      </section>
+      <section class="contact" id="contact">
+        <!-- Contact section  -->
+        <h2>Contact Me</h2>
+        <p>
+          If you'd like to get in touch, feel free to reach out to me through
+          the following channels:
+        </p>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <div>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required="Enter your name"
+            />
+          </div>
+          <label for="email">Email:</label>
+          <div>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <label for="message">Message:</label>
+          <div>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+      <section>
+        <label>Age range</label>
+        <select name="age-range" id="age-range">
+          <option value="18-25">18-25</option>
+          <option value="26-35">26-35</option>
+          <option value="36-45">36-45</option>
+          <option value="46+">46+</option>
+      </section>
+      <section>
+        <aside>
+          <h3>Ads</h3>
+        </aside>
+      </section>
+      <footer>
+        <div>Copyright &copy; 2026 Abimbola Fakorede. All rights reserved.</div>
+      </footer>
+    </main>
+  </body>
+</html>
